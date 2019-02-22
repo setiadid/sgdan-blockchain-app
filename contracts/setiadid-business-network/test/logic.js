@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
- /* This is test 2/22 */
+/* This is test 2/22 */
 
 'use strict';
 /**
