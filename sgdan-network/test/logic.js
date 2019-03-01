@@ -26,7 +26,7 @@ const chai = require('chai');
 chai.should();
 chai.use(require('chai-as-promised'));
 
-const namespace = 'org.setiadid1';
+const namespace = 'org.setiadid';
 const assetType = 'SampleAsset';
 const assetNS = namespace + '.' + assetType;
 const participantType = 'SampleParticipant';
