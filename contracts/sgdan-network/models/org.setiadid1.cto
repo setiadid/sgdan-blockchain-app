@@ -16,7 +16,7 @@
  * Write your model definitions here
  */
 
-namespace org.setiadid
+namespace org.setiadid1
 
 participant SampleParticipant identified by participantId {
   o String participantId

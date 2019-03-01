@@ -2,11 +2,11 @@
   "engines": {
     "composer": "^0.20.6"
   },
-  "name": "setiadid-business-network",
+  "name": "sgdan-network",
   "version": "0.0.1",
-  "description": "network for testing",
+  "description": "sg dan network",
   "scripts": {
-    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/setiadid-business-network.bna",
+    "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/sgdan-network.bna",
     "pretest": "npm run lint",
     "lint": "eslint .",
     "test": "nyc mocha -t 0 test/*.js && cucumber-js"

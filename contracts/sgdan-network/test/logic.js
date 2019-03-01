@@ -12,8 +12,6 @@
  * limitations under the License.
  */
 
-/* This is test 2/22 */
-
 'use strict';
 /**
  * Write the unit tests for your transction processor functions here
@@ -28,7 +26,7 @@ const chai = require('chai');
 chai.should();
 chai.use(require('chai-as-promised'));
 
-const namespace = 'org.setiadid';
+const namespace = 'org.setiadid1';
 const assetType = 'SampleAsset';
 const assetNS = namespace + '.' + assetType;
 const participantType = 'SampleParticipant';
