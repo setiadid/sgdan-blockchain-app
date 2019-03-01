@@ -50,7 +50,7 @@ function deploy_composer_contract {
             if [[ "${OUTPUT}" != *"already installed"* ]]
             then
                 echo failed to install composer contract ${CONTRACT}
-                exit 1
+                  break
             fi
         fi
         while ! OUTPUT=$(composer network start -c ${BLOCKCHAIN_NETWORK_CARD} -n ${BUSINESS_NETWORK_NAME} -V ${BUSINESS_NETWORK_VERSION} -A ${BLOCKCHAIN_NETWORK_ENROLL_ID} -S ${BLOCKCHAIN_NETWORK_ENROLL_SECRET} -f adminCard.card 2>&1)
